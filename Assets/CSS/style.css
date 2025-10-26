@@ -1,0 +1,64 @@
+.hero {
+    background: url('https://via.placeholder.com/1920x400') no-repeat center center;
+    background-size: cover;
+    color: rgb(88, 6, 84);
+    padding: 100px 0;
+    text-align: center;
+    
+}
+  .col-md-3.col-lg-2 {
+    margin-bottom: 1rem;
+  }
+  .col-md-3 .card {
+    background-color: #551e56;
+  }
+
+  
+  #searchForm {
+    max-width: 300px;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    width: 0;
+  }
+
+  #searchForm.active {
+    width: 300px;
+  }
+
+
+  .navbar-toggler-icon {
+    background-color:white;
+    color: white !important;
+  }
+
+  .navbar-toggler {
+    margin-left: 0;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(40, 223, 138, 0.2);
+}
+
+.card img {
+    transition: transform 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+
+  .bi {
+    vertical-align: middle;
+}
+
+.btn img {
+    vertical-align: middle;
+}
