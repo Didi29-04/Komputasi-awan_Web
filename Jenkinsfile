@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "🔄 Checkout source code dari repo..."
-                git branch: 'main', url: 'https://github.com/Didi29-04/Komputasi-Awan_Docker.git'
+                git branch: 'main', url: 'https://github.com/Didi29-04/Komputasi-awan_Web.git'
             }
         }
 
